@@ -1,0 +1,44 @@
+html {
+  background-color: black;
+}
+
+.wrapper {
+  /* background-color: pink; */
+  margin: 5rem auto;
+  width: 600px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  display: block;
+  margin: 340px 0 0 220px;
+}
+
+.odd {
+  display: block;
+  margin: 0 auto;
+  border: 5px dashed rgb(223, 170, 248);
+}
+
+.pointer {
+  height: 40px;
+  position: relative;
+  top: 450px;
+  left: 150px;
+  animation: pointer 1000ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pointer {
+  0% {
+  }
+  50% {
+    left: 320px;
+  }
+  100% {
+    left: 150px;
+  }
+}
